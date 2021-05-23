@@ -24,6 +24,15 @@ class Item {
   }
 }
 
+class AgeBrie extends Item {
+  constructor(sellIn, quality) {
+    super('Aged Brie', sellIn, quality);
+  }
+  updateQuality() {
+
+  }
+}
+
 class Shop {
   constructor(items = []) {
     this.items = items;
